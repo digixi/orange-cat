@@ -1,3 +1,5 @@
+@import "uikit/scss/uikit-variables";
+
 $text-color:   #2f2f30;
 $orange-color: #f17e00;
 $green-color:  #bbd700;
@@ -10,6 +12,22 @@ $base-font-size: 16px;
 $fonts: (
   base: (family: $font-family, ascender: 0.75, descender: 0.25, capline: 0.7, meanline: 0.5)
 );
+
+@mixin small {
+  @media (min-width: $breakpoint-small) { @content; }
+}
+
+@mixin medium {
+  @media (min-width: $breakpoint-medium) { @content; }
+}
+
+@mixin large {
+  @media (min-width: $breakpoint-large) { @content; }
+}
+
+@mixin xlarge {
+  @media (min-width: $breakpoint-xlarge) { @content; }
+}
 
 @function em($size, $base: $base-font-size) {
   @if (unitless($size)) { $size: $size * 1px; }

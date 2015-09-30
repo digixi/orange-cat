@@ -5,7 +5,10 @@ body {
   background-image: image-url('bg-1.png');
   background-repeat: repeat-x;
   background-position: top;
-  font-size: $base-font-size;
+
+  font-size: 12px;
+  @include large { font-size: 14px; };
+  @include xlarge { font-size: 16px; };
 }
 
 body, h1, h2, h3, h4, h5, h6, p, li {

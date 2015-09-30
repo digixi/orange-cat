@@ -6,6 +6,7 @@ header {
   background-image: image-url('logo.png');
   background-repeat: no-repeat;
   background-position: left em(25px);
+  background-size: em(266px) auto;
 
   .blocks {
     height: em(108px);
@@ -78,7 +79,7 @@ header {
       list-style: none;
 
       li {
-        transition: 0.3s;
+        transition: background-color 0.3s;
         cursor: pointer;
         display: inline-block;
         padding: 0 em(15px, 18px);
