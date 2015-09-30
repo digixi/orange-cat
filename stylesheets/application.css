@@ -28,14 +28,22 @@ body {
   background-image: url("../images/bg-1.png");
   background-repeat: repeat-x;
   background-position: top;
-  font-size: 16px; }
+  font-size: 12px; }
+  @media (min-width: 960px) {
+    /* line 3, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+    body {
+      font-size: 14px; } }
+  @media (min-width: 1220px) {
+    /* line 3, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+    body {
+      font-size: 16px; } }
 
-/* line 11, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 14, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 body, h1, h2, h3, h4, h5, h6, p, li {
   font-family: "PT Sans", arial, sans-serif;
   color: #2f2f30; }
 
-/* line 17, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 20, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .welcome h1 {
   font-size: 3em;
   font-weight: bold;
@@ -46,35 +54,36 @@ header {
   padding: 0 0 0 16.25em !important;
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
-  background-position: left 1.5625em; }
-  /* line 10, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+  background-position: left 1.5625em;
+  background-size: 16.625em auto; }
+  /* line 11, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
   header .blocks {
     height: 6.75em; }
-    /* line 13, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 14, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .title {
       font-size: 1.125em;
       line-height: 1.11111;
       font-weight: bold;
       text-transform: uppercase; }
-    /* line 19, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 20, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .address .online-entry {
       text-align: center;
       text-transform: uppercase;
       color: #f17e00;
       font-weight: bold;
       margin-bottom: 1.25em; }
-    /* line 27, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 28, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .address .city {
       font-weight: bold;
       text-align: right; }
-    /* line 32, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 33, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .address .street {
       color: #7e7e7e; }
-    /* line 38, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 39, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .phone .phones, header .blocks .phone .btn {
       display: inline-block;
       vertical-align: bottom; }
-    /* line 43, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 44, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .phone .btn {
       font-size: 0.875em;
       line-height: 1;
@@ -91,33 +100,33 @@ header {
       border-bottom: 2px solid #ba6100;
       margin-bottom: 0.3125em;
       cursor: pointer; }
-      /* line 54, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 55, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
       header .blocks .phone .btn:hover {
         opacity: 0.8; }
-    /* line 57, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 58, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .phone .phones {
       text-align: right;
       margin-right: 1.25em; }
-      /* line 61, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 62, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
       header .blocks .phone .phones .main {
         font-size: 1.5em;
         font-weight: bold; }
-        /* line 63, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+        /* line 64, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
         header .blocks .phone .phones .main strong {
           color: #f17e00;
           font-weight: normal; }
-      /* line 66, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 67, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
       header .blocks .phone .phones .mobile {
         color: #7e7e7e; }
-  /* line 74, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+  /* line 75, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
   header nav ul {
     font-size: 1.125em;
     margin: 2.77778em 0 0;
     padding: 0;
     list-style: none; }
-    /* line 80, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 81, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header nav ul li {
-      transition: 0.3s;
+      transition: background-color 0.3s;
       cursor: pointer;
       display: inline-block;
       padding: 0 0.83333em;
@@ -126,7 +135,7 @@ header {
       line-height: 1.66667em;
       height: 1.66667em;
       border-radius: 3px; }
-      /* line 91, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 92, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
       header nav ul li.active, header nav ul li:hover {
         background-color: #bbd700;
         color: #fff; }

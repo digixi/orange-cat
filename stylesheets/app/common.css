@@ -4,14 +4,22 @@ body {
   background-image: url("../images/bg-1.png");
   background-repeat: repeat-x;
   background-position: top;
-  font-size: 16px; }
+  font-size: 12px; }
+  @media (min-width: 960px) {
+    /* line 3, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+    body {
+      font-size: 14px; } }
+  @media (min-width: 1220px) {
+    /* line 3, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+    body {
+      font-size: 16px; } }
 
-/* line 11, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 14, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 body, h1, h2, h3, h4, h5, h6, p, li {
   font-family: "PT Sans", arial, sans-serif;
   color: #2f2f30; }
 
-/* line 17, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 20, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .welcome h1 {
   font-size: 3em;
   font-weight: bold;
