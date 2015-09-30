@@ -1,0 +1,22 @@
+/*
+  This file is created automatically by webfont.py font generator
+  WARNING! Don't change this file. Make changes in webfont config file instead
+*/
+/* line 7, /projects/middleman/orange-cat/source/stylesheets/icons.scss */
+.icon {
+  display: inline-block;
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.4em; }
+
+/* line 18, /projects/middleman/orange-cat/source/stylesheets/icons.scss */
+.icon-pen:before {
+  content: "\e00a"; }
+
+/* line 19, /projects/middleman/orange-cat/source/stylesheets/icons.scss */
+.icon-pin:before {
+  content: "\e00b"; }

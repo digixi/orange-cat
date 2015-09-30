@@ -17,23 +17,36 @@ header {
       text-transform: uppercase; }
     /* line 20, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .address .online-entry {
+      transition: 0.3s;
       text-align: center;
       text-transform: uppercase;
       color: #f17e00;
       font-weight: bold;
       margin-bottom: 1.25em; }
-    /* line 28, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 27, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      header .blocks .address .online-entry:hover {
+        opacity: 0.8; }
+      /* line 29, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      header .blocks .address .online-entry a {
+        color: #f17e00;
+        text-decoration: none;
+        border-bottom: 2px dotted #f17e00; }
+    /* line 36, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .address .city {
       font-weight: bold;
       text-align: right; }
-    /* line 33, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 39, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      header .blocks .address .city i {
+        font-size: 1em;
+        color: #f17e00; }
+    /* line 45, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .address .street {
       color: #7e7e7e; }
-    /* line 39, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 51, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .phone .phones, header .blocks .phone .btn {
       display: inline-block;
       vertical-align: bottom; }
-    /* line 44, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 56, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .phone .btn {
       font-size: 0.875em;
       line-height: 1;
@@ -50,31 +63,31 @@ header {
       border-bottom: 2px solid #ba6100;
       margin-bottom: 0.3125em;
       cursor: pointer; }
-      /* line 55, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 67, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
       header .blocks .phone .btn:hover {
         opacity: 0.8; }
-    /* line 58, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 70, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header .blocks .phone .phones {
       text-align: right;
       margin-right: 1.25em; }
-      /* line 62, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 74, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
       header .blocks .phone .phones .main {
         font-size: 1.5em;
         font-weight: bold; }
-        /* line 64, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+        /* line 76, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
         header .blocks .phone .phones .main strong {
           color: #f17e00;
           font-weight: normal; }
-      /* line 67, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 79, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
       header .blocks .phone .phones .mobile {
         color: #7e7e7e; }
-  /* line 75, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+  /* line 87, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
   header nav ul {
     font-size: 1.125em;
     margin: 2.77778em 0 0;
     padding: 0;
     list-style: none; }
-    /* line 81, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+    /* line 93, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
     header nav ul li {
       transition: background-color 0.3s;
       cursor: pointer;
@@ -85,7 +98,7 @@ header {
       line-height: 1.66667em;
       height: 1.66667em;
       border-radius: 3px; }
-      /* line 92, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
+      /* line 104, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
       header nav ul li.active, header nav ul li:hover {
         background-color: #bbd700;
         color: #fff; }
