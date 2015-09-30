@@ -1,0 +1,15 @@
+config:
+  output-dir: '../../source'
+  font-output: 'fonts'
+  css-output: 'stylesheets'
+  css-vars-output: 'stylesheets'
+
+  font-family: 'icons'
+  font-formats: 'sfd, eot, woff, otf'
+
+  css-file: 'icons.scss'
+  css-font-url: 'font-url("{fontname}")'
+  css-font-size: '1.4em'
+  css-skip-font-face: true
+  css-vars-file: 'icons_vars.scss'
+  css-class: 'icon'

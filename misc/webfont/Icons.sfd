@@ -1,0 +1,118 @@
+SplineFontDB: 3.0
+FontName: Icons
+FullName: Icons
+FamilyName: Icons
+Weight: 500
+Copyright: OFL
+UComments: "2015-9-30: Created." 
+Version: 001.000
+FONDName: Icons
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+LayerCount: 2
+Layer: 0 0 "Back"  1
+Layer: 1 0 "Fore"  0
+XUID: [1021 800 487334602 7732273]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1443634549
+ModificationTime: 1443634549
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 90
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: Adobe Glyph List
+DisplaySize: -24
+AntiAlias: 1
+FitToEm: 1
+BeginChars: 258 2
+
+StartChar: uniE00B
+Encoding: 256 57355 0
+Width: 1000
+Flags: W
+HStem: 674.805 125.195<405.567 594.426>
+VStem: 149.077 125.195<354.964 543.511> 725.664 125.259<355.267 543.529>
+LayerCount: 2
+Fore
+SplineSet
+500 800 m 0
+ 693.804 800 850.859 642.881 850.923 449.141 c 0
+ 850.923 434.556 849.736 420.22 847.983 406.074 c 0
+ 818.687 131.895 527.793 -184.6 527.793 -184.6 c 1
+ 522.539 -190.293 517.466 -194.111 512.583 -196.743 c 2
+ 512.334 -196.87 l 1
+ 502.505 -200 l 1
+ 492.676 -196.87 l 1
+ 492.422 -196.743 l 2
+ 487.544 -194.116 482.471 -190.483 477.212 -184.6 c 1
+ 477.212 -184.6 182.065 131.333 152.08 405.449 c 0
+ 150.264 419.78 149.077 434.243 149.077 449.077 c 0
+ 149.077 642.881 306.196 800 500 800 c 0
+500 223.35 m 0
+ 624.443 223.35 725.664 324.634 725.664 449.077 c 0
+ 725.664 573.521 624.443 674.805 500 674.805 c 0
+ 375.557 674.805 274.272 573.521 274.272 449.077 c 0
+ 274.272 324.634 375.557 223.35 500 223.35 c 0
+500 223.35 m 0
+EndSplineSet
+Comment: "pin" 
+EndChar
+
+StartChar: uniE00A
+Encoding: 257 57354 1
+Width: 1000
+Flags: W
+HStem: -199.99 125<125.005 750.005> 550.01 125<125.005 529.028>
+VStem: 0.00488281 125<-74.9902 550.01> 750.005 125<-74.9902 329.004>
+LayerCount: 2
+Fore
+SplineSet
+972.539 772.544 m 0
+ 990.842 754.241 999.983 730.259 999.983 706.275 c 0
+ 999.983 682.271 990.828 658.264 972.539 639.946 c 2
+ 928.35 595.757 l 1
+ 795.723 728.354 l 1
+ 839.912 772.544 l 2
+ 858.226 790.843 882.233 799.999 906.239 799.999 c 0
+ 930.236 799.999 954.232 790.851 972.539 772.544 c 0
+309.639 242.212 m 1
+ 751.533 684.17 l 1
+ 884.16 551.567 l 1
+ 442.236 109.644 l 1
+ 265.479 65.4541 l 1
+ 309.639 242.212 l 1
+750.005 329.004 m 1
+ 875.005 454.033 l 1
+ 875.005 -199.99 l 1
+ 0.00488281 -199.99 l 1
+ 0.00488281 675.01 l 1
+ 653.994 675.01 l 1
+ 529.028 550.01 l 1
+ 125.005 550.01 l 1
+ 125.005 -74.9902 l 1
+ 750.005 -74.9902 l 1
+ 750.005 329.004 l 1
+750.005 329.004 m 0
+EndSplineSet
+Comment: "pen" 
+EndChar
+EndChars
+EndSplineFont

@@ -22,3 +22,11 @@
   src: font-url("pt-sans-bold-italic.woff") format('woff'),
        font-url("pt-sans-bold-italic.ttf") format('truetype');
 }
+
+/* Icons */
+
+@font-face {
+  font-family: "icons"; font-weight: 400; font-style: normal;
+  src: font-url("icons.woff") format('woff'),
+       font-url("icons.ttf") format('truetype');
+}

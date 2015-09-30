@@ -1,0 +1,3 @@
+[submodule "vendor/webfont"]
+	path = vendor/webfont
+	url = git@github.com:cybernetlab/webfont.git

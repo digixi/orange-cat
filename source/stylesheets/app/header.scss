@@ -18,16 +18,28 @@ header {
 
     .address {
       .online-entry {
+        transition: 0.3s;
         text-align: center;
         text-transform: uppercase;
         color: $orange-color;
         font-weight: bold;
         margin-bottom: em(20px);
+        &:hover { opacity: 0.8; }
+
+        a {
+          color: $orange-color;
+          text-decoration: none;
+          border-bottom: 2px dotted $orange-color;
+        }
       }
 
       .city {
         font-weight: bold;
         text-align: right;
+        i {
+          font-size: 1em;
+          color: $orange-color;
+        }
       }
 
       .street {
