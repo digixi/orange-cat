@@ -1,7 +1,7 @@
 /* line 3, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 body {
   background-color: #fff;
-  background-image: url("/images/bg-1.png");
+  background-image: url("../images/bg-1.png");
   background-repeat: repeat-x;
   background-position: top;
   font-size: 16px; }
