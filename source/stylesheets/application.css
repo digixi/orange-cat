@@ -1,5 +1,8 @@
 /*
  *= require uikit
+ *= require uikit/css/components/slideshow
+ *= require uikit/css/components/dotnav
+
  *= require fonts
  *= require icons
  *= require app/common

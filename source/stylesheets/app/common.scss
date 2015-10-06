@@ -16,8 +16,95 @@ body, h1, h2, h3, h4, h5, h6, p, li {
   color: $text-color;
 }
 
+a {
+  color: $orange-color;
+  font-weight: bold;
+  text-decoration: underline;
+  &:hover { color: $green-color; }
+}
+
+.btn {
+  @include font(em(16px), em(36px, 16px), bold);
+  padding: 0 em(19px, 16px);
+  display: inline-block;
+
+  &.btn-o {
+    color: $text-color;
+    border: 1px solid $text-color;
+  }
+}
+
 .welcome {
-  h1 {
-    @include font(em(48px), default, bold, $color: $orange-color);
+  margin-bottom: em(65px);
+  h1 { @include font(em(48px), 1, bold, $color: $orange-color); }
+  h4 { @include font(em(24px), 1, bold); }
+  p  { @include font(em(18px), 20/18); }
+  .more { @include font(em(16px, 18px)); }
+}
+
+.about-block {
+  h2 { @include font(em(36px), 1, normal); }
+  h3 { @include font(em(24px), 1, normal); }
+  .description {
+    font-style: italic;
+    color: $grey-color;
+  }
+  ul.directions {
+    padding: 0;
+    li {
+      list-style: none;
+      font-size: em(18px);
+      margin-bottom: font-top(27px, 18px);
+    }
+  }
+}
+
+.content {
+  .frame {
+    position: relative;
+    z-index: 100;
+    display: block;
+    .frame-body {
+      @include position(relative, $z-index: 102);
+      //@include position(absolute, 7px, 7px, $right: 7px, $bottom: 7px, $z-index: 102);
+      padding: 7px;
+    }
+    &::after {
+      @include position(absolute, 5px, 5px, $right: 5px, $bottom: 5px, $z-index: 101);
+      content: '';
+      border: 2px solid white;
+    }
+  }
+}
+
+.right {
+  & > * {
+    margin-top: em(70px);
+    &:first-child { margin-top: 0; }
+  }
+
+  .news {
+    border: 2px solid $light-grey-color;
+    padding: em(25px) em(28px);
+    .date { @include font(em(14px), $color: $grey-color); }
+    h2 { @include font(em(30px), 36/30, bold, $color: $orange-color); }
+    p { @include font(em(18px), 24/18); }
+    .more { font-size: em(16px, 18px); }
+  }
+}
+
+.birthday {
+  background-image: image-url('img-01.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  padding: em(34px) em(75px);
+
+  h2 {
+    @include font(em(30px), 36/30);
+    margin-top: font-top(25px, 30px, 36/30);
+    margin-bottom: font-bottom(46px, 30px, 36/30);
+    text-align: left;
   }
 }

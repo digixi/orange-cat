@@ -1,0 +1,18 @@
+/! slider
+.slider data-uk-slideshow="{autoplay: true, animation: 'scroll'}"
+  .slider-wrapper
+    ul.uk-slideshow
+      li
+        img src=image_path('slide-01.png') alt=""
+        .uk-overlay-panel.uk-overlay-background.uk-overlay-fade
+          h2 Клуб для вашего ребёнка!
+          p
+            | Отлично оформленные помещения, лучшие специалисты, вкусное меню,
+              интереснейшие занятия, студии, матсер-классы, лучшие развлечения,
+              и интерактивные программы всегда к вашим услугам.
+      li: img src=image_path('slide-01.png') alt=""
+      li: img src=image_path('slide-01.png') alt=""
+  ul.uk-dotnav.uk-flex-center
+    li data-uk-slideshow-item="0": a href=""
+    li data-uk-slideshow-item="1": a href=""
+    li data-uk-slideshow-item="2": a href=""

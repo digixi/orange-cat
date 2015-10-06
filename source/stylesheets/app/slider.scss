@@ -1,0 +1,33 @@
+@import "../vars";
+
+.slider {
+  margin-bottom: em(50px);
+
+  .slider-wrapper {
+    border-bottom: 2px solid $orange-color;
+    .uk-slideshow { border-bottom: 8px solid $green-color; }
+  }
+
+  .uk-overlay-panel {
+    left: auto;
+    right: 0;
+    width: 75%;
+    background-color: white;
+    opacity: 0.9;
+    top: em(95px);
+    bottom: em(35px);
+
+    h2 {
+      @include font(em(36px), default, bold, $color: $orange-color);
+    }
+  }
+
+  .uk-dotnav {
+    margin-top: em(15px);
+    li a {
+      @include size(10px, 10px);
+      background-color: rgba(47, 47, 48, 0.2);
+    }
+    .uk-active a { background-color: $orange-color; }
+  }
+}
