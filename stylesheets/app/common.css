@@ -19,8 +19,133 @@ body, h1, h2, h3, h4, h5, h6, p, li {
   font-family: "PT Sans", arial, sans-serif;
   color: #2f2f30; }
 
-/* line 20, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
-.welcome h1 {
-  font-size: 3em;
+/* line 19, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+a {
+  color: #f17e00;
   font-weight: bold;
-  color: #f17e00; }
+  text-decoration: underline; }
+  /* line 23, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  a:hover {
+    color: #bbd700; }
+
+/* line 26, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.btn {
+  font-size: 1em;
+  line-height: 2.25em;
+  font-weight: bold;
+  padding: 0 1.1875em;
+  display: inline-block; }
+  /* line 31, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .btn.btn-o {
+    color: #2f2f30;
+    border: 1px solid #2f2f30; }
+
+/* line 37, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.welcome {
+  margin-bottom: 4.0625em; }
+  /* line 39, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .welcome h1 {
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    color: #f17e00; }
+  /* line 40, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .welcome h4 {
+    font-size: 1.5em;
+    line-height: 1;
+    font-weight: bold; }
+  /* line 41, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .welcome p {
+    font-size: 1.125em;
+    line-height: 1.11111; }
+  /* line 42, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .welcome .more {
+    font-size: 0.88889em; }
+
+/* line 46, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.about-block h2 {
+  font-size: 2.25em;
+  line-height: 1;
+  font-weight: normal; }
+/* line 47, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.about-block h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: normal; }
+/* line 48, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.about-block .description {
+  font-style: italic;
+  color: #7e7e7e; }
+/* line 52, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.about-block ul.directions {
+  padding: 0; }
+  /* line 54, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .about-block ul.directions li {
+    list-style: none;
+    font-size: 1.125em;
+    margin-bottom: 1.45em; }
+
+/* line 63, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.content .frame {
+  position: relative;
+  z-index: 100;
+  display: block; }
+  /* line 67, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .content .frame .frame-body {
+    position: relative;
+    z-index: 102;
+    padding: 7px; }
+  /* line 72, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .content .frame::after {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    z-index: 101;
+    content: '';
+    border: 2px solid white; }
+
+/* line 81, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.right > * {
+  margin-top: 4.375em; }
+  /* line 83, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .right > *:first-child {
+    margin-top: 0; }
+/* line 86, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.right .news {
+  border: 2px solid #d5d5d6;
+  padding: 1.5625em 1.75em; }
+  /* line 89, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .right .news .date {
+    font-size: 0.875em;
+    color: #7e7e7e; }
+  /* line 90, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .right .news h2 {
+    font-size: 1.875em;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #f17e00; }
+  /* line 91, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .right .news p {
+    font-size: 1.125em;
+    line-height: 1.33333; }
+  /* line 92, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .right .news .more {
+    font-size: 0.88889em; }
+
+/* line 96, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.birthday {
+  background-image: url("../images/img-01.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  padding: 2.125em 4.6875em; }
+  /* line 104, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .birthday h2 {
+    font-size: 1.875em;
+    line-height: 1.2;
+    margin-top: 0.68333em;
+    margin-bottom: 1.18333em;
+    text-align: left; }
