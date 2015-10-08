@@ -4,6 +4,7 @@ $text-color:   #2f2f30;
 $orange-color: #f17e00;
 $green-color:  #bbd700;
 $grey-color:   #7e7e7e;
+$footer-color: #78728e;
 $light-grey-color: #d5d5d6;
 $orange-border-color: #ba6100;
 
@@ -28,6 +29,10 @@ $fonts: (
 
 @mixin xlarge {
   @media (min-width: $breakpoint-xlarge) { @content; }
+}
+
+@mixin text {
+  p, h1, h2, h3, h4, h5, h6, li { @content; }
 }
 
 @function em($size, $base: $base-font-size) {

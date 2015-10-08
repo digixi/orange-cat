@@ -1,0 +1,48 @@
+@import "../vars";
+
+footer {
+  margin-top: em(100px);
+  padding: em(30px) 0;
+  background-image: image-url('bg-footer.png');
+  background-repeat: repeat;
+  color: $footer-color;
+  p { @include font(em(14px), $color: $footer-color); };
+
+  .logo {
+    min-height: em(85px);
+    background-image: image-url('logo-footer.png');
+    background-repeat: no-repeat;
+    background-position: em(50px) bottom;
+  }
+
+  .contacts {
+    p {
+      text-align: right;
+      margin: 0;
+    }
+
+    .phone, .address {
+      background-repeat: no-repeat;
+      background-position: right center;
+      padding-right: em(38px);
+    }
+
+    .phone {
+      background-image: image-url('phone-footer.png');
+      .main {
+        @include font(em(18px), 1, bold);
+        margin-bottom: font-between(10px, 18px, 1, base, 14px, 1, base);
+        .code { font-weight: normal; }
+      }
+    }
+
+    .address {
+      background-image: image-url('pin-footer.png');
+      .city {
+        font-weight: bold;
+        margin-top:    font-between(19px, 14px, 1, base, 14px, 1, base);
+        margin-bottom: font-between(0px, 14px, 1, base, 14px, 1, base);
+      }
+    }
+  }
+}
