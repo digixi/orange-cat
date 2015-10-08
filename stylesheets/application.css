@@ -467,13 +467,59 @@ a {
     margin-top: 0.68333em;
     margin-bottom: 1.18333em;
     text-align: left; }
+/* line 3, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+footer {
+  margin-top: 6.25em;
+  padding: 1.875em 0;
+  background-image: url("../images/bg-footer.png");
+  background-repeat: repeat;
+  color: #78728e; }
+  /* line 9, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+  footer p {
+    font-size: 0.875em;
+    color: #78728e; }
+  /* line 11, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+  footer .logo {
+    min-height: 5.3125em;
+    background-image: url("../images/logo-footer.png");
+    background-repeat: no-repeat;
+    background-position: 3.125em bottom; }
+  /* line 19, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+  footer .contacts p {
+    text-align: right;
+    margin: 0; }
+  /* line 24, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+  footer .contacts .phone, footer .contacts .address {
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 2.375em; }
+  /* line 30, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+  footer .contacts .phone {
+    background-image: url("../images/phone-footer.png"); }
+    /* line 32, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+    footer .contacts .phone .main {
+      font-size: 1.125em;
+      line-height: 1;
+      font-weight: bold;
+      margin-bottom: 0.26667em; }
+      /* line 35, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+      footer .contacts .phone .main .code {
+        font-weight: normal; }
+  /* line 39, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+  footer .contacts .address {
+    background-image: url("../images/pin-footer.png"); }
+    /* line 41, /projects/middleman/orange-cat/source/stylesheets/app/footer.scss */
+    footer .contacts .address .city {
+      font-weight: bold;
+      margin-top: 1.05714em;
+      margin-bottom: -0.3em; }
 /* line 3, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
 header {
   height: 12.5em;
-  padding: 0 0 0 16.25em !important;
+  padding: 0 2.1875em 0 18.4375em !important;
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
-  background-position: left 1.5625em;
+  background-position: 2.1875em 1.5625em;
   background-size: 16.625em auto; }
   /* line 11, /projects/middleman/orange-cat/source/stylesheets/app/header.scss */
   header .blocks {
