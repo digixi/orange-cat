@@ -50,17 +50,20 @@
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
-set :relative_links, true
 
 activate :bower
 
 configure :development do
+  set :relative_links, true
   activate :relative_assets
   activate :livereload
 end
 
 # Build-specific configuration
 configure :build do
+  set :relative_links, false
+  set :http_prefix, '/orange-cat/'
+
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
@@ -71,8 +74,5 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # disactivate :relative_assets
-
-  # Or use a different image path
-  set :http_prefix, "/orange-cat/"
+  # activate :relative_assets
 end
