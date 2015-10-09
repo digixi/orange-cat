@@ -272,28 +272,28 @@ html{font:400 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-text
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-sans.woff") format("woff"), url("../fonts/pt-sans.ttf") format("truetype"); }
+  src: url("/fonts/pt-sans.woff") format("woff"), url("/fonts/pt-sans.ttf") format("truetype"); }
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sans-bold.woff") format("woff"), url("../fonts/pt-sans-bold.ttf") format("truetype"); }
+  src: url("/fonts/pt-sans-bold.woff") format("woff"), url("/fonts/pt-sans-bold.ttf") format("truetype"); }
 @font-face {
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 400;
-  src: url("../fonts/pt-sans-italic.woff") format("woff"), url("../fonts/pt-sans-italic.ttf") format("truetype"); }
+  src: url("/fonts/pt-sans-italic.woff") format("woff"), url("/fonts/pt-sans-italic.ttf") format("truetype"); }
 @font-face {
   font-family: "PT Sans";
   font-weight: 700;
   font-style: italic;
-  src: url("../fonts/pt-sans-bold-italic.woff") format("woff"), url("../fonts/pt-sans-bold-italic.ttf") format("truetype"); }
+  src: url("/fonts/pt-sans-bold-italic.woff") format("woff"), url("/fonts/pt-sans-bold-italic.ttf") format("truetype"); }
 /* Icons */
 @font-face {
   font-family: "icons";
   font-weight: 400;
   font-style: normal;
-  src: url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"); }
+  src: url("/fonts/icons.woff") format("woff"), url("/fonts/icons.ttf") format("truetype"); }
 
 /*
   This file is created automatically by webfont.py font generator
@@ -321,7 +321,7 @@ html{font:400 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-text
 /* line 3, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
 body {
   background-color: #fff;
-  background-image: url("../../images/bg-1.png");
+  background-image: url("/images/bg-1.png");
   background-repeat: repeat-x;
   background-position: top;
   font-size: 12px; }
@@ -456,7 +456,7 @@ a {
 
 /* line 96, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
 .birthday {
-  background-image: url("../../images/img-01.png");
+  background-image: url("/images/img-01.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -474,7 +474,7 @@ a {
 footer {
   margin-top: 6.25em;
   padding: 1.875em 0;
-  background-image: url("../../images/bg-footer.png");
+  background-image: url("/images/bg-footer.png");
   background-repeat: repeat;
   color: #78728e; }
   /* line 10, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
@@ -494,7 +494,7 @@ footer {
   /* line 23, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
   footer .logo {
     min-height: 5.3125em;
-    background-image: url("../../images/logo-footer.png");
+    background-image: url("/images/logo-footer.png");
     background-repeat: no-repeat;
     background-position: 3.125em bottom; }
   /* line 31, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
@@ -513,7 +513,7 @@ footer {
     padding-right: 2.375em; }
   /* line 50, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
   footer .contacts .phone {
-    background-image: url("../../images/phone-footer.png"); }
+    background-image: url("/images/phone-footer.png"); }
     /* line 52, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
     footer .contacts .phone .main {
       font-size: 1.125em;
@@ -525,7 +525,7 @@ footer {
         font-weight: normal; }
   /* line 59, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
   footer .contacts .address {
-    background-image: url("../../images/pin-footer.png"); }
+    background-image: url("/images/pin-footer.png"); }
     /* line 61, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
     footer .contacts .address .city {
       font-weight: bold;
@@ -536,7 +536,7 @@ footer {
 header {
   height: 12.5em;
   padding: 0 2.1875em 0 18.4375em !important;
-  background-image: "../../images/logo.png";
+  background-image: url("/images/logo.png");
   background-repeat: no-repeat;
   background-position: 2.1875em 1.5625em;
   background-size: 16.625em auto; }

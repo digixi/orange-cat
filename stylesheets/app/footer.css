@@ -3,7 +3,7 @@
 footer {
   margin-top: 6.25em;
   padding: 1.875em 0;
-  background-image: url("../../images/bg-footer.png");
+  background-image: url("/images/bg-footer.png");
   background-repeat: repeat;
   color: #78728e; }
   /* line 10, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
@@ -23,7 +23,7 @@ footer {
   /* line 23, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
   footer .logo {
     min-height: 5.3125em;
-    background-image: url("../../images/logo-footer.png");
+    background-image: url("/images/logo-footer.png");
     background-repeat: no-repeat;
     background-position: 3.125em bottom; }
   /* line 31, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
@@ -42,7 +42,7 @@ footer {
     padding-right: 2.375em; }
   /* line 50, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
   footer .contacts .phone {
-    background-image: url("../../images/phone-footer.png"); }
+    background-image: url("/images/phone-footer.png"); }
     /* line 52, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
     footer .contacts .phone .main {
       font-size: 1.125em;
@@ -54,7 +54,7 @@ footer {
         font-weight: normal; }
   /* line 59, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
   footer .contacts .address {
-    background-image: url("../../images/pin-footer.png"); }
+    background-image: url("/images/pin-footer.png"); }
     /* line 61, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/footer.scss */
     footer .contacts .address .city {
       font-weight: bold;
