@@ -1,8 +1,9 @@
+@charset "UTF-8";
 /*
   This file is created automatically by webfont.py font generator
   WARNING! Don't change this file. Make changes in webfont config file instead
 */
-/* line 7, /projects/middleman/orange-cat/source/stylesheets/icons.scss */
+/* line 7, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/icons.scss */
 .icon {
   display: inline-block;
   font-family: "icons";
@@ -13,10 +14,10 @@
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.4em; }
 
-/* line 18, /projects/middleman/orange-cat/source/stylesheets/icons.scss */
+/* line 18, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/icons.scss */
 .icon-pen:before {
   content: "\e00a"; }
 
-/* line 19, /projects/middleman/orange-cat/source/stylesheets/icons.scss */
+/* line 19, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/icons.scss */
 .icon-pin:before {
   content: "\e00b"; }
