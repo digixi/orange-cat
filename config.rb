@@ -53,8 +53,11 @@ set :images_dir, 'images'
 set :relative_links, true
 
 activate :bower
-activate :livereload
-activate :relative_assets
+
+configure :development do
+  activate :relative_assets
+  activate :livereload
+end
 
 # Build-specific configuration
 configure :build do
@@ -68,7 +71,7 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  # disactivate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
