@@ -74,5 +74,5 @@ configure :build do
   # disactivate :relative_assets
 
   # Or use a different image path
-  # set :http_prefix, "/Content/images/"
+  set :http_prefix, "/orange-cat/"
 end
