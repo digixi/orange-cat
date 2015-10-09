@@ -1,0 +1,10 @@
+/! PARTIAL footer_menu
+- parts = data.menu.main.each_slice((data.menu.main.size / 2.0).round).to_a
+.uk-grid.uk-grid-small
+  - parts.each do |part|
+    div class="uk-width-1-#{parts.size}"
+      ul
+        - part.each do |item|
+          li class="#{current_page.path == item.path ? 'active' : ''}"
+            =link_to item.title, item.path
+/! EOF PARTIAL footer_menu

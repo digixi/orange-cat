@@ -6,13 +6,33 @@ footer {
   background-image: image-url('bg-footer.png');
   background-repeat: repeat;
   color: $footer-color;
+
   p { @include font(em(14px), $color: $footer-color); };
+
+  a {
+    transition: 0.3s;
+    font-weight: normal;
+    color: $footer-color;
+    text-decoration: none;
+    &:hover {
+      color: #fff;//$footer-color;
+      text-decoration: none; //underline;
+    }
+  }
 
   .logo {
     min-height: em(85px);
     background-image: image-url('logo-footer.png');
     background-repeat: no-repeat;
     background-position: em(50px) bottom;
+  }
+
+  .menu {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
   }
 
   .contacts {

@@ -101,9 +101,15 @@ header {
         height: em(30px, 18px);
         border-radius: 3px;
 
+        a {
+          color: $text-color;
+          text-decoration: none;
+        }
+
         &.active, &:hover {
           background-color: $green-color;
-          color: #fff;
+          &, & a { color: #fff; }
+          a { text-decoration: none; }
         }
       }
     }
