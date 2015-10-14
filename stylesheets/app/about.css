@@ -1,0 +1,24 @@
+/* line 3, /projects/middleman/orange-cat/source/stylesheets/app/about.scss */
+.about-index {
+  background-image: url("/orange-cat/images/bg-about.png");
+  background-position: center 1.3125em;
+  background-repeat: repeat-x;
+  padding-top: 16.875em; }
+  /* line 9, /projects/middleman/orange-cat/source/stylesheets/app/about.scss */
+  .about-index .uk-container .uk-grid:first-child {
+    padding-bottom: 0.625em; }
+  /* line 11, /projects/middleman/orange-cat/source/stylesheets/app/about.scss */
+  .about-index h1 {
+    margin-top: 0; }
+
+/* line 14, /projects/middleman/orange-cat/source/stylesheets/app/about.scss */
+.about {
+  padding-top: 5.625em; }
+  /* line 17, /projects/middleman/orange-cat/source/stylesheets/app/about.scss */
+  .about .uk-container:first-child {
+    padding-bottom: 0.625em; }
+
+/* line 21, /projects/middleman/orange-cat/source/stylesheets/app/about.scss */
+.about .back, .about-index .back {
+  display: inline-block;
+  margin-top: 3.75em; }

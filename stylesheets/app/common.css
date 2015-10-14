@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 3, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 3, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 body {
   background-color: #fff;
   background-image: url("/orange-cat/images/bg-1.png");
@@ -7,96 +7,111 @@ body {
   background-position: top;
   font-size: 12px; }
   @media (min-width: 960px) {
-    /* line 3, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+    /* line 3, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
     body {
       font-size: 14px; } }
   @media (min-width: 1220px) {
-    /* line 3, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+    /* line 3, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
     body {
       font-size: 16px; } }
 
-/* line 14, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 14, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 body, h1, h2, h3, h4, h5, h6, p, li {
   font-family: "PT Sans", arial, sans-serif;
   color: #2f2f30; }
 
-/* line 19, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 19, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+h1 {
+  font-size: 3em;
+  line-height: 1.2;
+  margin-bottom: 0.69167em;
+  margin-top: 0.64167em; }
+
+/* line 25, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+h2 {
+  font-size: 2.25em;
+  line-height: 1.2; }
+
+/* line 26, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+h4 {
+  font-size: 1.5em;
+  line-height: 1.2; }
+
+/* line 28, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 a {
   color: #f17e00;
   font-weight: bold;
   text-decoration: underline; }
-  /* line 23, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 32, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   a:hover {
     color: #bbd700; }
 
-/* line 26, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 35, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .btn {
   font-size: 1em;
   line-height: 2.25em;
   font-weight: bold;
   padding: 0 1.1875em;
   display: inline-block; }
-  /* line 31, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 40, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .btn.btn-o {
     color: #2f2f30;
     border: 1px solid #2f2f30; }
 
-/* line 37, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 46, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .welcome {
   margin-bottom: 4.0625em; }
-  /* line 39, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 48, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .welcome h1 {
-    font-size: 3em;
-    line-height: 1;
     font-weight: bold;
     color: #f17e00; }
-  /* line 40, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 49, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .welcome h4 {
     font-size: 1.5em;
     line-height: 1;
     font-weight: bold; }
-  /* line 41, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 50, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .welcome p {
     font-size: 1.125em;
     line-height: 1.11111; }
-  /* line 42, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 51, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .welcome .more {
     font-size: 0.88889em; }
 
-/* line 46, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 55, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .about-block h2 {
   font-size: 2.25em;
   line-height: 1;
   font-weight: normal; }
-/* line 47, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 56, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .about-block h3 {
   font-size: 1.5em;
   line-height: 1;
   font-weight: normal; }
-/* line 48, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 57, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .about-block .description {
   font-style: italic;
   color: #7e7e7e; }
-/* line 52, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 61, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .about-block ul.directions {
   padding: 0; }
-  /* line 54, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 63, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .about-block ul.directions li {
     list-style: none;
     font-size: 1.125em;
     margin-bottom: 1.45em; }
 
-/* line 63, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 72, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .content .frame {
   position: relative;
   z-index: 100;
   display: block; }
-  /* line 67, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 76, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .content .frame .frame-body {
     position: relative;
     z-index: 102;
     padding: 7px; }
-  /* line 72, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 80, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .content .frame::after {
     position: absolute;
     left: 5px;
@@ -106,36 +121,67 @@ a {
     z-index: 101;
     content: '';
     border: 2px solid white; }
+/* line 87, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.content ul:not([class]), .content ol:not([class]) {
+  padding-left: 3.1875em;
+  line-height: 1.66667; }
+/* line 92, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.content ul:not([class]) {
+  list-style-type: none; }
+  /* line 95, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .content ul:not([class]) > li {
+    text-indent: -1.3125em; }
+    /* line 98, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+    .content ul:not([class]) > li:before {
+      content: '•';
+      color: #f17e00;
+      padding-right: 0.9375em; }
+/* line 106, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.content ol:not([class]) {
+  counter-reset: item; }
+  /* line 109, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .content ol:not([class]) > li {
+    text-indent: -3.1875em;
+    display: block; }
+    /* line 113, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+    .content ol:not([class]) > li:before {
+      display: inline-block;
+      width: 2.25em;
+      padding-right: 0.9375em;
+      text-align: right;
+      content: counter(item) ".";
+      counter-increment: item;
+      font-weight: bold; }
 
-/* line 81, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 127, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .right > * {
   margin-top: 4.375em; }
-  /* line 83, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 129, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .right > *:first-child {
     margin-top: 0; }
-/* line 86, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 132, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .right .news {
   border: 2px solid #d5d5d6;
   padding: 1.5625em 1.75em; }
-  /* line 89, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 135, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .right .news .date {
     font-size: 0.875em;
     color: #7e7e7e; }
-  /* line 90, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 136, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .right .news h2 {
     font-size: 1.875em;
     line-height: 1.2;
     font-weight: bold;
     color: #f17e00; }
-  /* line 91, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 137, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .right .news p {
     font-size: 1.125em;
     line-height: 1.33333; }
-  /* line 92, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 138, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .right .news .more {
     font-size: 0.88889em; }
 
-/* line 96, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+/* line 142, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
 .birthday {
   background-image: url("/orange-cat/images/img-01.png");
   background-repeat: no-repeat;
@@ -143,10 +189,34 @@ a {
   background-size: cover;
   text-align: center;
   padding: 2.125em 4.6875em; }
-  /* line 104, /home/alexiss/Проекты/middleman/orange-cat/source/stylesheets/app/common.scss */
+  /* line 150, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
   .birthday h2 {
     font-size: 1.875em;
     line-height: 1.2;
     margin-top: 0.68333em;
     margin-bottom: 1.18333em;
     text-align: left; }
+
+/* line 158, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+.breadcrumbs {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0.875em; }
+  /* line 164, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .breadcrumbs a {
+    font-weight: normal; }
+  /* line 166, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+  .breadcrumbs li {
+    display: inline-block; }
+    /* line 168, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+    .breadcrumbs li:not(:last-child) {
+      margin-right: 0.1875em; }
+      /* line 170, /projects/middleman/orange-cat/source/stylesheets/app/common.scss */
+      .breadcrumbs li:not(:last-child):after {
+        margin-left: 0.125em;
+        display: inline-block;
+        content: '→';
+        color: #9f9f9f;
+        font-size: 1.5em;
+        vertical-align: -0.125em; }
