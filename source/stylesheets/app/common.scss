@@ -16,6 +16,15 @@ body, h1, h2, h3, h4, h5, h6, p, li {
   color: $text-color;
 }
 
+h1 {
+  @include font(em(48px), 1.2);
+  margin-bottom: font-bottom(50px, 48px, 1.2);
+  margin-top: font-top(38px, 48px, 1.2);
+}
+
+h2 { @include font(em(36px), 1.2); }
+h4 { @include font(em(24px), 1.2); }
+
 a {
   color: $orange-color;
   font-weight: bold;
@@ -36,7 +45,7 @@ a {
 
 .welcome {
   margin-bottom: em(65px);
-  h1 { @include font(em(48px), 1, bold, $color: $orange-color); }
+  h1 { @include font($weight: bold, $color: $orange-color); }
   h4 { @include font(em(24px), 1, bold); }
   p  { @include font(em(18px), 20/18); }
   .more { @include font(em(16px, 18px)); }
@@ -66,13 +75,50 @@ a {
     display: block;
     .frame-body {
       @include position(relative, $z-index: 102);
-      //@include position(absolute, 7px, 7px, $right: 7px, $bottom: 7px, $z-index: 102);
       padding: 7px;
     }
     &::after {
       @include position(absolute, 5px, 5px, $right: 5px, $bottom: 5px, $z-index: 101);
       content: '';
       border: 2px solid white;
+    }
+  }
+
+  ul:not([class]), ol:not([class]) {
+    padding-left: em(51px);
+    line-height: (30/18);
+  }
+
+  ul:not([class]) {
+    list-style-type: none;
+
+    & > li {
+      text-indent: em(-21px);
+
+      &:before {
+        content: '•';
+        color: $orange-color;
+        padding-right: em(15px);
+      }
+    }
+  }
+
+  ol:not([class]) {
+    counter-reset: item;
+
+    & > li {
+      text-indent: em(-51px);
+      display: block;
+
+      &:before {
+        display: inline-block;
+        width: em(36px);
+        padding-right: em(15px);
+        text-align: right;
+        content: counter(item) ".";
+        counter-increment: item;
+        font-weight: bold;
+      }
     }
   }
 }
@@ -106,5 +152,29 @@ a {
     margin-top: font-top(25px, 30px, 36/30);
     margin-bottom: font-bottom(46px, 30px, 36/30);
     text-align: left;
+  }
+}
+
+.breadcrumbs {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: em(14px);
+
+  a { font-weight: normal }
+
+  li {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: em(3px);
+      &:after {
+        margin-left: em(3px, 24px);
+        display: inline-block;
+        content: '→';
+        color: #9f9f9f;
+        font-size: em(24px);
+        vertical-align: em(-3px, 24px);
+      }
+    }
   }
 }

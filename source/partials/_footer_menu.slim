@@ -5,6 +5,8 @@
     div class="uk-width-1-#{parts.size}"
       ul
         - part.each do |item|
-          li class="#{current_page.path == item.path ? 'active' : ''}"
-            =link_to item.title, item.path
+          - page = sitemap.find_resource_by_path(item)
+          - next if page.nil?
+          li class="#{current_page == page ? 'active' : ''}"
+            = link_to page.data.caption || page.data.title, page
 /! EOF PARTIAL footer_menu

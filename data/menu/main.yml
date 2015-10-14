@@ -1,18 +1,6 @@
--
-  path:  index.html
-  title: Главная
--
-  path:  about.html
-  title: О клубе
--
-  path:  directions.html
-  title: Направления
--
-  path:  for_parents.html
-  title: Родителям
--
-  path:  kindergarten.html
-  title: Детский сад &laquo;Апельсин&raquo;
--
-  path:  contacts.html
-  title: Контакты
+- /index.html
+- /about/index.html
+- /directions.html
+- /for_parents.html
+- /kindergarten.html
+- /contacts.html

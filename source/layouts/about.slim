@@ -1,0 +1,7 @@
+= wrap_layout 'layout' do
+  .about
+    .uk-container.uk-container-center.content
+      = partial 'partials/breadcrumbs'
+    .uk-container.uk-container-center.content
+      = yield
+      p = link_to 'Вернуться назад', current_page.parent, class: 'back'

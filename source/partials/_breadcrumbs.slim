@@ -1,0 +1,15 @@
+/! PARTIAL breadcrumbs
+- breadcrumbs = []
+- page = current_page
+- while page do
+  - breadcrumbs << page
+  - page = page.parent
+
+ul.breadcrumbs
+  - breadcrumbs.reverse.each do |page|
+    li
+      - if page == current_page
+        = page.data.caption || page.data.title
+      - else
+        = link_to page.data.caption || page.data.title, page
+/! EOF PARTIAL breadcrumbs

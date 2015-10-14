@@ -9,8 +9,8 @@ html
     = stylesheet_link_tag 'application'
     = javascript_include_tag 'application'
 
-  body class=page_classes
+  /body class=page_classes
+  body
     = partial 'partials/header'
-    .uk-container.uk-container-center
-      = yield
+    = yield
     = partial 'partials/footer'

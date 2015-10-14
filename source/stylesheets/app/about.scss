@@ -1,0 +1,25 @@
+@import "../vars";
+
+.about-index {
+  background-image: image-url('bg-about.png');
+  background-position: center em(21px);
+  background-repeat: repeat-x;
+  padding-top: em(270px);
+
+  .uk-container .uk-grid:first-child { padding-bottom: em(10px); }
+
+  h1 { margin-top: 0; }
+}
+
+.about {
+  padding-top: em(90px);
+
+  .uk-container:first-child { padding-bottom: em(10px); }
+}
+
+.about, .about-index {
+  .back {
+    display: inline-block;
+    margin-top: em(60px);
+  }
+}
