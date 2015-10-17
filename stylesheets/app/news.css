@@ -1,0 +1,42 @@
+/* line 4, /projects/middleman/orange-cat/source/stylesheets/app/news.scss */
+.article .date {
+  font-size: 0.875em;
+  line-height: 1;
+  opacity: 0.7;
+  margin-top: 2.66429em; }
+/* line 10, /projects/middleman/orange-cat/source/stylesheets/app/news.scss */
+.article hr {
+  display: none; }
+/* line 12, /projects/middleman/orange-cat/source/stylesheets/app/news.scss */
+.article h1 {
+  margin-top: 0.19375em; }
+
+/* line 18, /projects/middleman/orange-cat/source/stylesheets/app/news.scss */
+.news .article {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #2f2f30; }
+  /* line 23, /projects/middleman/orange-cat/source/stylesheets/app/news.scss */
+  .news .article:hover {
+    transform: scale(1.1, 1.1); }
+  /* line 27, /projects/middleman/orange-cat/source/stylesheets/app/news.scss */
+  .news .article .image {
+    height: 10em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em; }
+  /* line 35, /projects/middleman/orange-cat/source/stylesheets/app/news.scss */
+  .news .article .date {
+    margin: 0 0 1.09286em; }
+  /* line 39, /projects/middleman/orange-cat/source/stylesheets/app/news.scss */
+  .news .article h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+    font-weight: normal;
+    margin: 0 0 0.34167em; }
+  /* line 39, /projects/middleman/orange-cat/source/stylesheets/vars.scss */
+  .news .article p, .news .article li, .news .article th, .news .article td, .news .article a {
+    font-size: 1em;
+    line-height: 1.25;
+    font-weight: normal; }
