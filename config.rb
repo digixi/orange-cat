@@ -47,11 +47,30 @@
 #   end
 # end
 
+I18n.default_locale = :ru
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 activate :bower
+
+activate :gallery do |gallery|
+  gallery.at = 'about/gallery'
+  gallery.lang = 'slim'
+end
+
+activate :blog do |blog|
+  blog.prefix = 'about/news'
+  blog.layout = 'article'
+  blog.permalink = '{year}-{month}-{day}-{title}.html'
+  blog.summary_generator = proc do |context, rendered, *args|
+    html = html_doc = Nokogiri::HTML('<article>' + rendered + '</article>')
+    nodes = html.css('article > *')
+    hr = html.at_css('article > hr')
+    hr ? nodes.slice(0, nodes.index(hr)).to_html : nodes.first.to_html
+  end
+end
 
 configure :development do
   set :relative_links, true

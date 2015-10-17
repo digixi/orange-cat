@@ -1,6 +1,6 @@
 /! PARTIAL local_menu
 - parent = current_page.directory_index? ? current_page : current_page.parent
-ul
+ul.local-menu
   - parent.children.each do |page|
     li
       - if page == current_page

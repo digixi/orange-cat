@@ -25,6 +25,8 @@ h1 {
 h2 { @include font(em(36px), 1.2); }
 h4 { @include font(em(24px), 1.2); }
 
+em { color: $text-color; }
+
 a {
   color: $orange-color;
   font-weight: bold;
@@ -36,10 +38,16 @@ a {
   @include font(em(16px), em(36px, 16px), bold);
   padding: 0 em(19px, 16px);
   display: inline-block;
+  cursor:  pointer;
 
   &.btn-o {
     color: $text-color;
     border: 1px solid $text-color;
+  }
+
+  &.btn-block {
+    display: block;
+    text-align: center;
   }
 }
 
@@ -175,6 +183,19 @@ a {
         font-size: em(24px);
         vertical-align: em(-3px, 24px);
       }
+    }
+  }
+}
+
+.local-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  li {
+    display: block;
+    a {
+      @include font(em(18px), 40/18, normal);
+      vertical-align: top;
     }
   }
 }

@@ -1,0 +1,7 @@
+= wrap_layout 'about' do
+  .article
+    .date = I18n.l current_article.date.to_date
+    h1 = current_article.title
+    - if current_article.data[:image]
+      img src=image_path(current_article.data[:image]) alt=current_article.title
+    = current_article.body

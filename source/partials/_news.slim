@@ -1,0 +1,14 @@
+.uk-grid.news data-uk-grid-margin=""
+  - blog.articles[0...9].each do |article|
+    a.uk-width-1-3.article href=article.url
+      - if article.data[:image]
+        .image style="background-image: url(#{image_path(article.data[:image])})"
+      .date = I18n.l article.date.to_date
+      h3 == article.title
+      .text == article.summary
+- if blog.articles.size > 9
+  .uk-grid
+    .uk-width-1-3
+    .uk-width-1-3
+      .btn.btn-o.btn-block Показать ещё
+    .uk-width-1-3    

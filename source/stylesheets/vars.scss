@@ -31,8 +31,17 @@ $fonts: (
   @media (min-width: $breakpoint-xlarge) { @content; }
 }
 
+@mixin headers {
+  h1, h2, h3, h4, h5, h6 { @content; }
+}
+
 @mixin text {
-  p, h1, h2, h3, h4, h5, h6, li { @content; }
+  p, li, th, td, a { @content; }
+}
+
+@mixin all-text {
+  @include headers { @content; }
+  @include text    { @content; }
 }
 
 @function em($size, $base: $base-font-size) {
