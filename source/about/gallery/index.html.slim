@@ -1,0 +1,10 @@
+- unless defined?(folder)
+  - folder = File.join(Dir.pwd, *%w(source about gallery))
+- folders = Dir[folder + '/*'].select {|x| File.directory? x }
+- files = Dir[folder + '/*.{jpg, png}'].select {|x| File.file? x }
+
+- folders.each do |dir|
+  - images = Dir[dir + '/*.{jpg, png}'].select {|x| File.file? x }
+  - next if images.empty?
+p = files
+/= galley.images :default
